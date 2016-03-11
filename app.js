@@ -14,7 +14,7 @@ var users = require('./routes/users');
 
 var app = express();
 
-
+// Custom middleware
 var middleware ={
   loggly: function(req,res,next){
       console.log('Logger is logging '+req.method+' ' + req.originalUrl);
