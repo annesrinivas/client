@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+ 
+}
+
+.jumbotron{
+    background:url(../images/bck2.jpeg) no-repeat  center center;
+      color: white;
+}
+
+footer{
+    background: #f4f4f4;
+    height: 40px;
+    text-align: center;
+    margin-top:   30px;
+    padding-top: 10px;
+    overflow: auto;
+    
+}
+ 
